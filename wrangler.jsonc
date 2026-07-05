@@ -1,0 +1,35 @@
+{
+  // Catherine Hope Foundation 2.0 — Cloudflare Workers (static assets + small API)
+  // Deploy with: npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "catherine-hope-foundation",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // Run the Worker first for API routes; everything else is served straight from ./public
+    "run_worker_first": ["/api/*"],
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "observability": { "enabled": true },
+
+  // ---------------------------------------------------------------------------
+  // Living Hope Map cache (Prompt 3). Create with:
+  //   npx wrangler kv namespace create HOPE_CACHE
+  // then paste the returned id below and uncomment this block.
+  // ---------------------------------------------------------------------------
+  // "kv_namespaces": [
+  //   { "binding": "HOPE_CACHE", "id": "<paste-id-here>" }
+  // ],
+
+  // Secrets are NOT stored here. Set them with:
+  //   npx wrangler secret put ANTHROPIC_API_KEY
+  //   npx wrangler secret put NEWS_API_KEY
+  // For local dev, copy .dev.vars.example -> .dev.vars and fill in values.
+
+  // Optional: Workers AI binding (cheap Hope Map variant). Uncomment to enable.
+  // "ai": { "binding": "AI" }
+}

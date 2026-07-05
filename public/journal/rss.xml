@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hope Journal — Catherine Hope Foundation</title>
+    <link>https://catherinehopefoundation.org/journal</link>
+    <description>Stories, explainers and dispatches from the Catherine Hope Foundation.</description>
+    <language>en</language>
+    <item>
+      <title>When the heat came, so did we</title>
+      <link>https://catherinehopefoundation.org/journal/beat-the-heat-2026</link>
+      <guid>https://catherinehopefoundation.org/journal/beat-the-heat-2026</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <description>A response piece from a fierce Chennai summer — buttermilk, shade and the simple dignity of not being forgotten.</description>
+    </item>
+    <item>
+      <title>Why we&apos;re building a Centre of our own</title>
+      <link>https://catherinehopefoundation.org/journal/why-a-centre-of-our-own</link>
+      <guid>https://catherinehopefoundation.org/journal/why-a-centre-of-our-own</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 GMT</pubDate>
+      <description>For four years the Centre moved from room to room — until a slab fell from the ceiling. Here&apos;s what 28 pillars really mean.</description>
+    </item>
+    <item>
+      <title>A morning at the Centre</title>
+      <link>https://catherinehopefoundation.org/journal/a-morning-at-the-centre</link>
+      <guid>https://catherinehopefoundation.org/journal/a-morning-at-the-centre</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Tuition, a music class, a warm snack and a library card. An ordinary morning that, for these children, is anything but.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "slug": "beat-the-heat-2026",
+      "title": "When the heat came, so did we",
+      "type": "Response",
+      "date": "2026-05-18",
+      "author": "The CHF team",
+      "excerpt": "A response piece from a fierce Chennai summer — buttermilk, shade and the simple dignity of not being forgotten.",
+      "hero": "/images/programmes/need_4.jpg",
+      "pillar": "/work/response"
+    },
+    {
+      "slug": "why-a-centre-of-our-own",
+      "title": "Why we're building a Centre of our own",
+      "type": "Explainer",
+      "date": "2026-04-02",
+      "author": "The CHF team",
+      "excerpt": "For four years the Centre moved from room to room — until a slab fell from the ceiling. Here's what 28 pillars really mean.",
+      "hero": "/images/construction/construction_3.jpg",
+      "pillar": "/partner/sponsor-a-pillar"
+    },
+    {
+      "slug": "a-morning-at-the-centre",
+      "title": "A morning at the Centre",
+      "type": "From the Centre",
+      "date": "2026-03-10",
+      "author": "The CHF team",
+      "excerpt": "Tuition, a music class, a warm snack and a library card. An ordinary morning that, for these children, is anything but.",
+      "hero": "/images/programmes/daily_tuitions.jpg",
+      "pillar": "/work/centre"
+    }
+  ]
+}
