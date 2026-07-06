@@ -2,7 +2,7 @@
   // Catherine Hope Foundation 2.0 — Cloudflare Workers (static assets + small API)
   // Deploy with: npx wrangler deploy
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "catherine-hope-foundation",
+  "name": "catherinehope2",
   "main": "src/index.js",
   "compatibility_date": "2026-07-05",
   "compatibility_flags": ["nodejs_compat"],
