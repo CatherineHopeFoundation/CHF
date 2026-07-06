@@ -1,8 +1,6 @@
 # Copy this file to .dev.vars for local `wrangler dev`.
-# NEVER commit real keys. In production set these with `wrangler secret put`.
-
-# Anthropic API key — powers the Living Hope Map matcher and the article draft helper.
-ANTHROPIC_API_KEY=""
-
-# News API key (e.g. newsapi.org / GNews) — themed local-news lookup for the Hope Map.
-NEWS_API_KEY=""
+# NEVER commit real values. In production set secrets with `wrangler secret put`.
+#
+# The current site needs NO secrets to run — the contact API logs submissions
+# for observability. When you wire real email/CRM delivery for /api/contact,
+# add the relevant key(s) here (e.g. RESEND_API_KEY) and as a wrangler secret.

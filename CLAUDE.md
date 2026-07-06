@@ -1,108 +1,89 @@
-# Catherine Hope Foundation 2.0 — Project Memory
+# Catherine Hope Foundation — Project Memory
 
-This file is the project's memory. Read it first every session. Keep it updated
-whenever the site map or brand changes.
+Read this first every session. Keep it updated when the site map, brand or
+content changes. **This reflects the approved warm/grassroots-NGO brief (which
+supersedes the earlier "2.0" editorial build).**
 
-## What CHF is (3 sentences)
-Catherine Selvinson (19 Oct 2002 – 26 Feb 2020) was an intelligent, multi-talented
-girl from Mumbai who faced bone cancer, an amputation, and relapse with an
-unbroken smile, spending her short life lifting others out of hopelessness and
-depression. Her last words — "Live every moment" — became a calling: her parents
-Selvinson and Graciana founded the Catherine Hope Foundation to make her dream of
-personalised care for those in need a reality. CHF is an Indian charitable trust
-based in Chennai that raises vulnerable children, cares for the differently-abled,
-cancer patients, widows and elders, empowers women, and responds to emergencies.
+## Project
+The website for **Catherine Hope Foundation (CHF)**, a govt-registered Indian
+charitable trust in Tamil Nadu. Warm, human, image-heavy, alive — a social cause,
+**never** minimal/beige/corporate. Deploys on **Cloudflare Workers static assets**
+via `npx wrangler deploy` (no build step; static HTML/CSS/JS in `/public`).
+
+## Non-negotiable rules
+1. **Never fabricate** numbers, names, dates or quotes. Unknown value → a visible
+   `{{placeholder}}`, listed for a human. Never invent impact figures.
+2. **Real images**, front and centre (in `/public/images`, from the foundation's
+   own live site which CHF owns).
+3. **Dignity** for every child/beneficiary — respectful, specific, never pitying.
+   Flag any photo↔name pairing that isn't confirmed (only Santhakumar is confirmed).
+4. **Warm NGO feel** — rounded cards, coral Donate CTAs, big photos, movement.
 
 ## Voice
-- Tagline: **"One girl's story. Hundreds of second chances."**
-- Motto: **"Serve with love to empower."**
-- Guiding words: **"Live every moment."** (Catherine's last WhatsApp status)
-- Tone: warm but honest. Dignified, specific, never pitying. These are real,
-  often vulnerable people.
+- Motto: **"Serve with Love to Empower."**
+- Guiding words (Catherine's last message): **"Live every moment."**
+- Warm, sincere, hopeful, plain-spoken; first person plural. Catherine's words as
+  handwritten (Caveat) accents.
 
-## Locked palette (CSS variables in /public/css/site.css)
-| Token        | Hex       |
-|--------------|-----------|
-| Paper        | `#FBF7EF` |
-| Paper-2      | `#F3ECDD` |
-| Ink          | `#221E18` |
-| Ink-soft     | `#5A5348` |
-| Green        | `#1F5F4E` |
-| Green-deep   | `#153F34` |
-| Gold         | `#D99A3C` |
-| Rose         | `#C05B4D` |
-| Line         | `#E4DAC7` |
+## Design system (locked)
+CSS variables in `/public/css/site.css`:
+`--green #0E7C5A · --green-d #0A5C43 · --green-t #E6F4EF · --coral #F26522 ·
+--coral-d #D64F12 · --coral-t #FFF2EA · --gold #F6B41A · --ink #182A24 ·
+--gray #586A63 · --paper #FFFFFF · --soft #F5F9F7 · --line #E7ECEA`
+Fonts (Google): **Poppins** (headings 500–800), **Inter** (body), **Caveat**
+(handwritten accent for Catherine's words only). Rounded 14–22px, soft shadows.
+Components: sticky nav + trust bar · sliding hero (dots/arrows) · animated count-up
+counters with pulsing live dot · focus/programme/changed-lives cards · construction
+progress bar + pipeline · vertical timeline · testimonial quotes · auto-scroll
+gallery marquee · coral→gold CTA band · dark-green footer with 80G/reg badges.
 
-## Fonts
-- Display: **Newsreader**
-- Body: **Inter**
-- Data/mono: **JetBrains Mono**
-(Self-hosted from /public/fonts if added; otherwise system fallbacks in CSS.)
+## Verified facts (source of truth)
+- Founded **2020**, in memory of **Catherine Selvinson** (b. 19 Oct 2002, Mumbai;
+  d. 26 Feb 2020 at 17 — battled cancer without depression).
+- **Reg. under Indian Trust Act (91/2020); 80G & 12A (Form 10AC).**
+- Office: **290, 4th Street, Baba Nagar, Villivakkam, Chennai – 600049.**
+  Centre: **Catherine Hope Center — Ennore & Ernavur, Tamil Nadu.**
+- Email **info@catherinehopefoundation.org** · Phone **+91 8939251910**.
+- Socials: facebook.com/catherinehopefoundation · Instagram · YouTube
+  @catherinehopefoundation2407.
+- **Center opened 1 Aug 2021** during COVID (tuition for children left behind).
+- **New Center: 28 pillars planned · 11 complete · 2 in progress.**
+- 6 focus areas: Differently-Abled Empowerment (DAEP) · Cancer Warriors' Care ·
+  Mental Health / depression · Children's Education · Widows & Vulnerable Women ·
+  Poorest of the Poor.
+- Changed lives (verified; use exact facts): **Santhakumar** (DAEP since 2020, photo
+  confirmed), **Anjali** (class 2, lost a leg), **Mahalakshmi** (first computer batch),
+  **Kunta** (Maharashtra), **Karuthapandi** (Dindigul, brick cutter, sons Dhanakabilan
+  & Karthikraja), a bedridden father of two. More names to confirm: Divya, Lordson,
+  Lingadurai, Praiselyn Maribah, Gauri Shankar, Mottayandi, Vijaylakshmi.
+- Catherine's poem **"The Little Fox"** — full text used on /story.
 
-## The four pillars
-1. **Raising Catherines** (`/work/centre`) — the Catherine Hope Center, Ennore:
-   daily tuition, Change Ambassadors Programme, music, computers, spoken English,
-   healthy snacks, library.
-2. **Community Care** (`/work/community-care`) — differently-abled (DAEP),
-   Cancer Warriors' Care, Widows Welfare, Senior Citizens' Support, Healthy Grains,
-   wheelchair donations, Housing Initiative.
-3. **Emergency Response** (`/work/response`) — floods, Beat the Heat, COVID relief,
-   rapid-response emergency assistance.
-4. **Catherine Stree** (`/work/catherine-stree`) — women's livelihood social
-   enterprise: baking + jewellery-making training, product lines, "invest in a maker".
-
-## Site map (every route)
+## Site map (all built)
 ```
-/                         Home (Living Hope Map slot #hope-map, pillars, proof, campaign, ways to help, trust strip)
-/story                    Catherine's narrative + poem "The Little Fox" + documentary embed
-/work                     Four-pillar overview
-/work/centre              Raising Catherines
-/work/community-care      Community Care
-/work/response            Emergency Response
-/work/catherine-stree     Catherine Stree (women's livelihood)
-/changed-lives            Named beneficiary stories
-/gallery                  Filterable gallery from /public/images/manifest.json
-/partner                  Partner hub
-/partner/donate
-/partner/sponsor-a-catherine
-/partner/sponsor-a-pillar  (28 pillars, 11 built)
-/partner/corporate-csr
-/impact                   Dashboard (placeholders clearly marked), governance, 80G
-/about                    Founders, team, trustees, contact
-/contact                  Form -> POST /api/contact
-/journal                  Hope Journal index (/public/journal/*.html, posts.json)
-/journal/rss.xml
-/404.html
+/               Home (sliding hero, counters, focus areas, story, construction, changed lives, marquee, CTA)
+/story          Catherine's life + poem "The Little Fox" + documentary slot
+/about          Mission, Center history, milestones timeline, team, governance
+/focus-areas    The 6 focus areas in depth
+/programmes     All programmes grouped: Education · Empowerment & Care · Response
+/changed-lives  Beneficiary stories (Santhakumar confirmed; others flagged)
+/construction   28-pillar campaign, progress bar, build gallery, sponsor-a-pillar
+/gallery        Filterable gallery from /public/images/manifest.json
+/get-involved   Donate · Volunteer · Intern · Corporate/CSR · contact form
+/contact        Contact form -> POST /api/contact
+/404.html       On-brand not-found
 ```
-
-## Real facts (from live site — source of truth)
-- Registered office: **290, 4th Street, Baba Nagar, Villivakkam, Chennai – 600049**
-- Centre: **Catherine Hope Center for Community Welfare, Ennore, Chennai**
-- Phone: **+91 8939251910** · Email: **info@catherinehopefoundation.org**
-- Registered under **Indian Trust Act (91/2020)**
-- 80G: **Form 80G/10AC – AACTC7794BF20212**
-- YouTube: **@catherinehopefoundation2407**
-- Building campaign: new Centre, **total cost ₹1.8 crore**, **28 foundation pillars**,
-  **11 completed, 2 in progress** at time of writing.
-- Catherine's poem: **"The Little Fox"** (full text in /story).
-
-## Never fabricate impact numbers
-Where a real figure isn't confirmed, use a clearly-marked placeholder like
-`{{children_taught}}`. A human must replace every `{{ }}` before this goes to
-partners. Do NOT invent counts of children, families, wheelchairs, etc.
-
-## Where the brief lives
-Source-of-truth brief files go in `/brief/` (excluded from publish via
-`.assetsignore`). If they are absent, real content was reconstructed from the
-existing live site at catherinehopefoundation.org (the foundation owns it).
 
 ## Tech / deploy
-- Cloudflare Workers **static assets**. Deploy: **`npx wrangler deploy`**.
-- Worker (`src/index.js`) handles `/api/*` (contact, hope-map) then defers to
-  `env.ASSETS`. Static site is plain HTML/CSS/JS in `/public` — **no build step**.
-- Living Hope Map (`/api/hope-map`) needs secrets `ANTHROPIC_API_KEY`,
-  `NEWS_API_KEY` and KV `HOPE_CACHE`; it degrades to a warm national default
-  without them. Set secrets with `wrangler secret put`, never in files.
-- Journal draft helper: `node scripts/draft-article.js` (human-in-the-loop;
-  writes to `/public/journal/_drafts/`, which is NOT published).
-```
+- Static assets in `/public`. `src/index.js` Worker handles `/api/contact`
+  (validates + logs; no secrets needed) then defers to `env.ASSETS`.
+- Pages are authored via `node scripts/build-pages.js` (+ `build-sitemap.js`),
+  which emit static HTML into `/public` using shared chrome in `scripts/chrome.js`
+  and content in `scripts/content.js`. The **committed HTML is what ships** — deploy
+  is still `npx wrangler deploy` alone. `npm run pages` rebuilds both.
+- Deploy: **`npx wrangler deploy`** (or a git push if Cloudflare Workers Builds is
+  connected to the production branch).
+
+## Open {{placeholders}} for a human
+Counter numbers (lives touched, volunteers & staff), donation link/UPI/gateway,
+team & trustee names+photos, remaining changed-lives names/stories & photo
+confirmations, exact testimonial quotes. Replace every `{{ }}` before partner use.

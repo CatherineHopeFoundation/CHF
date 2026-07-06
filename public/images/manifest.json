@@ -1,6 +1,14 @@
 {
   "images": [
     {
+      "path": "/images/brand/comma.png",
+      "width": 88,
+      "height": 80,
+      "section": "brand",
+      "section_title": "Brand",
+      "alt": "Catherine Hope Foundation logo."
+    },
+    {
       "path": "/images/brand/logo-icon.png",
       "width": 32,
       "height": 32,
@@ -30,7 +38,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_11.jpg",
@@ -38,7 +46,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_12.jpg",
@@ -46,7 +54,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_2.jpg",
@@ -54,7 +62,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_3.jpg",
@@ -62,7 +70,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_4.jpg",
@@ -70,7 +78,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_5.jpg",
@@ -78,7 +86,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_6.jpg",
@@ -86,7 +94,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_7.jpg",
@@ -94,7 +102,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_8.jpg",
@@ -102,7 +110,7 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
     },
     {
       "path": "/images/changed-lives/life_9.jpg",
@@ -110,430 +118,918 @@
       "height": 470,
       "section": "changed-lives",
       "section_title": "Changed lives",
-      "alt": "A person whose life was changed through the Catherine Hope Foundation, pictured with dignity."
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
+    },
+    {
+      "path": "/images/changed-lives/santhakumar.jpg",
+      "width": 629,
+      "height": 470,
+      "section": "changed-lives",
+      "section_title": "Changed lives",
+      "alt": "A person whose life changed through the Catherine Hope Foundation, pictured with dignity."
+    },
+    {
+      "path": "/images/construction/bc1.jpg",
+      "width": 500,
+      "height": 300,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/bc2.jpg",
+      "width": 500,
+      "height": 300,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/bc3.jpg",
+      "width": 500,
+      "height": 300,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_1.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_10.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_11.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_12.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_2.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_3.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_4.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/construction_5.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/construction_6.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/construction_7.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/construction/construction_8.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "construction",
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/construction_9.jpg",
       "width": 800,
       "height": 600,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/why_1.jpg",
       "width": 430,
       "height": 290,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
     },
     {
       "path": "/images/construction/why_2.jpg",
       "width": 430,
       "height": 370,
       "section": "construction",
-      "section_title": "New Centre construction",
-      "alt": "Progress on the new Catherine Hope Center \u2014 pillars rising, one milestone at a time."
+      "section_title": "Building the Center",
+      "alt": "Progress on the new Catherine Hope Center, rising pillar by pillar."
+    },
+    {
+      "path": "/images/focus/cancer_care.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "focus",
+      "section_title": "Focus areas",
+      "alt": "One of the Catherine Hope Foundation focus areas."
+    },
+    {
+      "path": "/images/focus/differently_abled.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "focus",
+      "section_title": "Focus areas",
+      "alt": "One of the Catherine Hope Foundation focus areas."
+    },
+    {
+      "path": "/images/focus/education.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "focus",
+      "section_title": "Focus areas",
+      "alt": "One of the Catherine Hope Foundation focus areas."
+    },
+    {
+      "path": "/images/focus/mental_health.jpg",
+      "width": 360,
+      "height": 290,
+      "section": "focus",
+      "section_title": "Focus areas",
+      "alt": "One of the Catherine Hope Foundation focus areas."
+    },
+    {
+      "path": "/images/galleries/beatheatp_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/beatheatp_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/beatheatp_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cambossador_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cambossador_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cambossador_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/computer_t_1.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/computer_t_2.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/computer_t_3.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/covidp_15.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/covidp_16.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cwcp_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cwcp_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/cwcp_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/daily_t_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/daily_t_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/daily_t_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/diff_abled_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/diff_abled_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/diff_abled_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/floodp_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/floodp_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/fwcs_1.jpg",
+      "width": 529,
+      "height": 428,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/health_g_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/health_g_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/health_g_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_1.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_10.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_11.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_12.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_13.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_14.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_15.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_16.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_17.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_18.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_19.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_2.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_20.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_3.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_4.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_5.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_6.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_7.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_8.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/home_9.png",
       "width": 329,
       "height": 228,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/music_class_1.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/music_class_2.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/music_class_3.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_1.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_10.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_11.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_12.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_13.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_14.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_15.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_2.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_3.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_4.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_5.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_6.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_7.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_8.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/raising_9.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/snakschf_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/snakschf_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/snakschf_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/spoken_english_1.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/spoken_english_2.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/spoken_english_3.jpg",
+      "width": 850,
+      "height": 537,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/swcd_2.png",
+      "width": 512,
+      "height": 440,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/twd_1.jpg",
+      "width": 529,
+      "height": 428,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/wepm_pgm_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/wepm_pgm_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/wepm_pgm_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/widowschf_1.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/widowschf_2.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/galleries/widowschf_3.jpg",
+      "width": 800,
+      "height": 600,
+      "section": "galleries",
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_1.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_2.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_3.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_4.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_5.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_6.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
     },
     {
       "path": "/images/galleries/women_7.jpg",
       "width": 800,
       "height": 600,
       "section": "galleries",
-      "section_title": "Gallery",
-      "alt": "A scene from the everyday life and work of the Catherine Hope Foundation."
+      "section_title": "Life at CHF",
+      "alt": "A scene from the everyday work of the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_1.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_2.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_3.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_4.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_5.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
+    },
+    {
+      "path": "/images/hero/slider_6.jpg",
+      "width": 400,
+      "height": 650,
+      "section": "hero",
+      "section_title": "Highlights",
+      "alt": "A highlight from the Catherine Hope Foundation."
     },
     {
       "path": "/images/home/help_1.jpg",
       "width": 436,
       "height": 426,
       "section": "home",
-      "section_title": "Ways to help",
+      "section_title": "Moments",
       "alt": "A moment of care from the work of the Catherine Hope Foundation."
     },
     {
@@ -541,7 +1037,7 @@
       "width": 160,
       "height": 160,
       "section": "home",
-      "section_title": "Ways to help",
+      "section_title": "Moments",
       "alt": "A moment of care from the work of the Catherine Hope Foundation."
     },
     {
@@ -549,7 +1045,7 @@
       "width": 220,
       "height": 220,
       "section": "home",
-      "section_title": "Ways to help",
+      "section_title": "Moments",
       "alt": "A moment of care from the work of the Catherine Hope Foundation."
     },
     {
@@ -558,7 +1054,15 @@
       "height": 290,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
+    },
+    {
+      "path": "/images/programmes/change_ambassadors.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "programmes",
+      "section_title": "Programmes",
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/daily_tuitions.jpg",
@@ -566,7 +1070,7 @@
       "height": 228,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/depression.jpg",
@@ -574,7 +1078,7 @@
       "height": 290,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/healthy_grains.jpg",
@@ -582,7 +1086,7 @@
       "height": 228,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/healthy_snacks.jpg",
@@ -590,7 +1094,7 @@
       "height": 228,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/hungry.jpg",
@@ -598,7 +1102,23 @@
       "height": 450,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
+    },
+    {
+      "path": "/images/programmes/industrial_visit.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "programmes",
+      "section_title": "Programmes",
+      "alt": "A Catherine Hope Foundation programme in action."
+    },
+    {
+      "path": "/images/programmes/music_class.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "programmes",
+      "section_title": "Programmes",
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/need_3.jpg",
@@ -606,7 +1126,7 @@
       "height": 290,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/programmes/need_4.jpg",
@@ -614,7 +1134,23 @@
       "height": 290,
       "section": "programmes",
       "section_title": "Programmes",
-      "alt": "Children and families supported through a Catherine Hope Foundation programme."
+      "alt": "A Catherine Hope Foundation programme in action."
+    },
+    {
+      "path": "/images/programmes/netzsch_visit.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "programmes",
+      "section_title": "Programmes",
+      "alt": "A Catherine Hope Foundation programme in action."
+    },
+    {
+      "path": "/images/programmes/parent_teacher.jpg",
+      "width": 329,
+      "height": 228,
+      "section": "programmes",
+      "section_title": "Programmes",
+      "alt": "A Catherine Hope Foundation programme in action."
     },
     {
       "path": "/images/story/catherine_1.png",
@@ -622,7 +1158,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_2.png",
@@ -630,7 +1166,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_3.png",
@@ -638,7 +1174,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_4.png",
@@ -646,7 +1182,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_5.png",
@@ -654,7 +1190,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_6.png",
@@ -662,7 +1198,7 @@
       "height": 228,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     },
     {
       "path": "/images/story/catherine_hero.jpg",
@@ -670,7 +1206,7 @@
       "height": 476,
       "section": "story",
       "section_title": "Catherine",
-      "alt": "Catherine Selvinson, whose story and courage inspired the foundation."
+      "alt": "Catherine Selvinson, whose courage inspired the foundation."
     }
   ]
 }

@@ -1,27 +1,50 @@
 /**
- * build-pages.js — one-time authoring generator.
- *
- * Emits pure static HTML into /public. This is NOT a deploy-time build:
- * the committed HTML is what ships, so the site still deploys with
- * `npx wrangler deploy` alone. Re-run only when you change shared chrome
- * or page content:  node scripts/build-pages.js
+ * build-pages.js — one-time authoring generator (emits pure static HTML into
+ * /public). Not a deploy-time build: committed HTML is what ships, so the site
+ * still deploys with `npx wrangler deploy` alone. Re-run after content changes:
+ *   node scripts/build-pages.js
  */
 
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-
-import { SITE, CONTACT, header, footer } from "./chrome.js";
+import { SITE, CONTACT, FONTS, header, footer } from "./chrome.js";
+import { PAGES } from "./content.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC = join(ROOT, "public");
-const OG_IMAGE = SITE + "/images/story/catherine_hero.jpg";
+const OG_IMAGE = SITE + "/images/hero/slider_1.jpg";
 
-function layout({ slug, title, desc, ogImage = OG_IMAGE, jsonld = null, bodyScripts = "", bodyClass = "" }, content) {
+const ORG_JSONLD = {
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  name: "Catherine Hope Foundation",
+  alternateName: "CHF",
+  url: SITE,
+  logo: SITE + "/images/brand/logo.png",
+  slogan: "Serve with Love to Empower.",
+  foundingDate: "2020",
+  email: CONTACT.email,
+  telephone: CONTACT.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "290, 4th Street, Baba Nagar, Villivakkam",
+    addressLocality: "Chennai",
+    postalCode: "600049",
+    addressRegion: "Tamil Nadu",
+    addressCountry: "IN",
+  },
+  sameAs: [CONTACT.facebook, CONTACT.instagram, CONTACT.youtube],
+};
+
+function navRoot(slug) {
+  if (slug.startsWith("/get-involved") || slug === "/contact") return "/get-involved";
+  return slug;
+}
+
+export function layout({ slug, title, desc, ogImage = OG_IMAGE, jsonld = null, bodyScripts = "" }, content) {
   const canonical = SITE + (slug === "/" ? "/" : slug);
-  const org = jsonld
-    ? `\n<script type="application/ld+json">${JSON.stringify(jsonld)}</script>`
-    : "";
+  const ld = jsonld ? `\n<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : "";
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -40,16 +63,14 @@ function layout({ slug, title, desc, ogImage = OG_IMAGE, jsonld = null, bodyScri
 <meta name="twitter:title" content="${title}">
 <meta name="twitter:description" content="${desc}">
 <meta name="twitter:image" content="${ogImage}">
-<meta name="theme-color" content="#153F34">
+<meta name="theme-color" content="#0A5C43">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/images/brand/logo-icon.png" sizes="any">
 <link rel="apple-touch-icon" href="/images/brand/logo-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/site.css">${org}
+${FONTS}
+<link rel="stylesheet" href="/css/site.css">${ld}
 </head>
-<body class="${bodyClass}">
+<body>
 ${header(navRoot(slug))}
 <main id="main">
 ${content}
@@ -60,60 +81,21 @@ ${footer()}
 </html>`;
 }
 
-// Map a page slug to the nav item that should be highlighted.
-function navRoot(slug) {
-  if (slug.startsWith("/work")) return "/work";
-  if (slug.startsWith("/journal")) return "/journal";
-  if (slug === "/story") return "/story";
-  if (slug === "/changed-lives") return "/changed-lives";
-  if (slug === "/gallery") return "/gallery";
-  if (slug === "/impact") return "/impact";
-  if (slug === "/about" || slug === "/contact") return "/about";
-  return slug;
-}
-
 function ph(name) {
-  return `<span class="placeholder" title="Replace with a verified figure">{{${name}}}</span>`;
+  return `<span class="placeholder" title="Replace with a verified value">{{${name}}}</span>`;
 }
 
 function write(slug, html) {
   let out;
   if (slug === "/") out = join(PUBLIC, "index.html");
-  else if (slug.endsWith(".html")) out = join(PUBLIC, slug.replace(/^\//, ""));
   else out = join(PUBLIC, slug.replace(/^\//, ""), "index.html");
   mkdirSync(dirname(out), { recursive: true });
   writeFileSync(out, html);
   return out;
 }
 
-const ORG_JSONLD = {
-  "@context": "https://schema.org",
-  "@type": "NGO",
-  name: "Catherine Hope Foundation",
-  alternateName: "CHF",
-  url: SITE,
-  logo: SITE + "/images/brand/logo.png",
-  slogan: "Serve with love to empower.",
-  email: CONTACT.email,
-  telephone: CONTACT.phone,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "290, 4th Street, Baba Nagar, Villivakkam",
-    addressLocality: "Chennai",
-    postalCode: "600049",
-    addressRegion: "Tamil Nadu",
-    addressCountry: "IN",
-  },
-  sameAs: [CONTACT.youtube],
-};
-
-/* =====================================================================
-   PAGES
-   ===================================================================== */
-import { PAGES } from "./content.js";
-
 let count = 0;
-for (const p of PAGES({ layout, header, footer, ph, CONTACT, ORG_JSONLD, SITE })) {
+for (const p of PAGES({ layout, ph, CONTACT, ORG_JSONLD, SITE })) {
   const out = write(p.slug, p.html);
   count++;
   console.log("  wrote", out.replace(ROOT + "/", ""));

@@ -7,7 +7,10 @@
   var LABELS = {
     all: "All",
     story: "Catherine",
-    construction: "Building the Centre",
+    about: "About",
+    hero: "Highlights",
+    focus: "Focus areas",
+    construction: "Building the Center",
     "changed-lives": "Changed lives",
     programmes: "Programmes",
     galleries: "Life at CHF",

@@ -1,15 +1,12 @@
 /**
- * Catherine Hope Foundation 2.0 — Cloudflare Worker
+ * Catherine Hope Foundation — Cloudflare Worker
  *
- * Responsibilities:
- *   1. Handle /api/* routes (contact form, Living Hope Map).
+ *   1. Handle /api/* (currently the contact form).
  *   2. Fall through to static assets in ./public via env.ASSETS.
  *
- * Everything degrades gracefully: if a secret or KV binding is missing,
- * the visitor still gets a warm, working page — never an error screen.
+ * Everything degrades gracefully — a visitor never sees an error screen.
  */
 
-import { handleHopeMap } from "./hope-map.js";
 import { handleContact } from "./contact.js";
 
 const JSON_HEADERS = {
@@ -25,31 +22,26 @@ export default {
       try {
         return await routeApi(url.pathname, request, env, ctx);
       } catch (err) {
-        // Never leak internals; log for observability.
         console.error("API error", url.pathname, err && err.stack ? err.stack : err);
-        return new Response(
-          JSON.stringify({ ok: false, error: "internal_error" }),
-          { status: 500, headers: JSON_HEADERS }
-        );
+        return new Response(JSON.stringify({ ok: false, error: "internal_error" }), {
+          status: 500,
+          headers: JSON_HEADERS,
+        });
       }
     }
 
-    // Not an API request — serve a static asset.
     return env.ASSETS.fetch(request);
   },
 };
 
-/** Tiny router for the API surface. */
 async function routeApi(pathname, request, env, ctx) {
   switch (pathname) {
-    case "/api/hope-map":
-      return handleHopeMap(request, env, ctx);
     case "/api/contact":
       return handleContact(request, env, ctx);
     default:
-      return new Response(
-        JSON.stringify({ ok: false, error: "not_implemented" }),
-        { status: 501, headers: JSON_HEADERS }
-      );
+      return new Response(JSON.stringify({ ok: false, error: "not_implemented" }), {
+        status: 501,
+        headers: JSON_HEADERS,
+      });
   }
 }
