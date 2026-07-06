@@ -1,0 +1,6 @@
+# Copy this file to .dev.vars for local `wrangler dev`.
+# NEVER commit real values. In production set secrets with `wrangler secret put`.
+#
+# The current site needs NO secrets to run — the contact API logs submissions
+# for observability. When you wire real email/CRM delivery for /api/contact,
+# add the relevant key(s) here (e.g. RESEND_API_KEY) and as a wrangler secret.

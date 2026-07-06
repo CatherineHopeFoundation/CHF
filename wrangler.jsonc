@@ -1,0 +1,22 @@
+{
+  // Catherine Hope Foundation 2.0 — Cloudflare Workers (static assets + small API)
+  // Deploy with: npx wrangler deploy
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "catherine-hope-foundation",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // Run the Worker first for API routes; everything else is served straight from ./public
+    "run_worker_first": ["/api/*"],
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "observability": { "enabled": true }
+
+  // No secrets or bindings are required to run the site. The contact API
+  // (/api/contact) logs submissions for observability; wire real email/CRM
+  // delivery later and add any key via `wrangler secret put`.
+}

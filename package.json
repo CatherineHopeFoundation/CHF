@@ -1,0 +1,16 @@
+{
+  "name": "catherine-hope-foundation",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Catherine Hope Foundation 2.0 — website on Cloudflare Workers static assets.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types",
+    "pages": "node scripts/build-pages.js && node scripts/build-sitemap.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.20.0"
+  }
+}
